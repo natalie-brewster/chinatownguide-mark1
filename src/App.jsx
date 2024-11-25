@@ -34,7 +34,9 @@ const App = () => {
     const popup = new mapboxgl.Popup({
       offset: 25,
       className: "popup1",
-    }).setText("Construction on the Washington Monument began in 1848.");
+    }).setHTML(
+      '<div class="popup-text"><h1>NOW INSTANT IMAGE HALL</h1><span><p>C-01</p><p>939 CHUNG KING RD</p></span><p>The second iteration of this Highland Park-founded cinema showcases contemporary and historic experimental films in its luminously branded space. Astutely curated programming has featured a range of influential artists, from the perpetually relevant Aria Dean to iconic filmmakers like Chris Marker. Be sure to arrive early to check out the on-site bookstore. After the screening, head to the speak-easy style cocktail bar located within the venue.</p></div>'
+    );
 
     const popup2 = new mapboxgl.Popup({
       offset: 25,

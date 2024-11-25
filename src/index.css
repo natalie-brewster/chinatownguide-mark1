@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -18,3 +18,28 @@
   height: 1000px;
 }
 
+@font-face {
+  font-family: "ABCDiatype";
+  src: url("/fonts/ABCDiatype-Regular.otf") format("opentype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ABCDiatype";
+  src: url("/fonts/ABCDiatype-Medium.otf") format("opentype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ABCDiatype";
+  src: url("/fonts/ABCDiatype-Bold.otf") format("opentype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+body {
+  font-family: "ABCDiatype", sans-serif;
+  font-weight: 700;
+}
